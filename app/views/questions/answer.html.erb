@@ -1,3 +1,10 @@
-<h1 class= "main-title">Coach says</h1>
-<p> <%= @answer %> </p>
-<%= link_to"ask another question", "/ask"%>
+<h1 class= "main-title">Stupid Coaching</h1>
+<div>
+<p> <%= "#{@question}" %></p>
+<p class="signature"> -You </p>
+</div>
+<div class="answer-div">
+<p> <strong> <%= @answer %> </strong> </p>
+<p class="signature"> -Your coach </p>
+</div>
+<p class="link"> <%= link_to"ask another question", "/ask"%> </p>

@@ -15,16 +15,46 @@
  */
 
  body {
-  font-style: italic;
-  text-align: center;
+  text-align: left;
   padding-top: 40px;
   background-color: antiquewhite;
+  padding-left: 20px;
+  border-left: 10px;
+  border-color: black;
+  border-width: 10px;
  }
 
- div {
-  padding: 200px;
+ .signature {
+  font-style: italic;
  }
+
 
  .main-title {
   padding-top: 100px;
+ }
+ .question-input {
+  width: 400px;
+  height: 45px;
+  border-radius: 5px;
+ }
+
+ .submit{
+  width: 100px;
+  height: 45px;
+  border-radius: 5px;
+ }
+
+ .link{
+  font-style: italic;
+ }
+
+ .answer-div{
+  background-color: bisque;
+ }
+
+ div{
+  padding-left: 20px;
+  border-radius: 0px;
+  border-left: 5px;
+
  }
